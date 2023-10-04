@@ -21,8 +21,6 @@ public class openchrome {
 
 		driver = new ChromeDriver();
 		
-		
-		
 		driver.get("https://www.google.com/");
 		
 		System.out.println(driver.getTitle());
