@@ -15,7 +15,6 @@ public class openchrome {
 	public void lauchBrowser()
 	{
 		WebDriver driver=null;
-		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\mohdmoin\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 
 		driver = new ChromeDriver();
